@@ -1,0 +1,160 @@
+/* 大タブレット向けレイアウト */
+@media all and (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+  .header-logo {
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header-list {
+    display: flex;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .header-list li {
+    flex: auto;
+    margin: 0 auto;
+  }
+  .menu-icon {
+    display: none;
+  }
+  footer {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .footer-center {
+    flex: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .footer-logo {
+    float: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+
+/* 小タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .container {
+    width: 80%;
+  }
+  .header-logo {
+    font-size: 37px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header-list {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    font-size: 18px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .header-list li {
+    float: left;
+    flex: auto;
+    width: 25%;
+    letter-spacing: 2px;
+    padding: 6px 0px;
+  }
+
+  footer {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .footer-center {
+    flex: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .footer-logo {
+    float: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  .menu {
+    display: inline-block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    background-color: rgba(183, 161, 108, 0.8)
+  }
+  .header-logo {
+    font-size: 32px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    height: 450px;
+    padding: 40px 0px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: none;
+  }
+  .header-list li {
+    flex: auto;
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .footer-logo {
+    float: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+  .btn {
+    border-radius: 40px;
+  }
+  .facebook {
+    padding: 6px 9px;
+  }
+  .instagram {
+    padding: 6px 9px;
+  }
+  .youtube {
+    padding: 6px 6px;
+  }
+  .soundcloud {
+    padding: 6px 4px;
+  }
+.applemusic {
+    padding: 6px 0px;
+    padding-right: 8px;
+    padding-left: 6px;
+  }
+  .footer-center {
+    flex: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+
+  }
