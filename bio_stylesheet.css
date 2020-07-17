@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Didot;
+  background-color: black;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  width: 60%;
+  margin: 0 auto;
+}
+.out-wrapper {
+  background-image: url(https://lh3.google.com/pw/ACtC-3fc5YLzno2v_Munlkowq3b-OTS2P2G8DoAQbBDRW3mgXBrz5gAciTKMqa52kwFHimHGjgOGNj_U6_WDFKT1086fycXpPZs=w1686-h1642-no?authuser=0);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.3;
+  height: 1200px;
+  position: relative;
+}
+header {
+  height: 170px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  padding: 10px 10px;
+  background-color: black;
+}
+.header-logo {
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+  color: rgba(192, 192, 192, 0.8);
+  margin: 0 auto;
+  width: 100%;
+  cursor: pointer;
+  font-family: Moonglade DEMO;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.header-list {
+  display: block;
+  display: flex;
+  font-size: 22px;
+  padding: 20px 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.header-list li {
+  flex: auto;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  padding-right: 5px;
+}
+.list-btn {
+  color: rgba(255, 224, 150, 0.8);
+  cursor: pointer;
+  opacity: 0.8;
+}
+.list-btn:hover {
+  opacity: 1;
+}
+.btn {
+  color: white;
+  opacity: 0.8;
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 4px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 1;
+}
+.menu {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+main {
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 250px;
+  z-index: 8;
+  padding: 10px 10px;
+}
+.bio {
+  background-color: rgba(47, 79, 79, 0.5);
+  width: 100%;
+  margin: 0 auto;
+}
+.bio-photo {
+  opacity: 0.9;
+  width: 40%;
+  float: left;
+}
+.name p {
+  display: inline-block;
+  font-size: 40px;
+  font-family: ;
+  position: relative;
+}
+.profile p {
+  display: inline-block;
+  width: 60%;
+  background-color: rgba(47, 79, 79, 0.3);
+  color: rgba(192, 192, 192, 0.8);
+  letter-spacing: 2px;
+  border: none;
+  font-size: 15px;
+  float: right;
+  position: absolute;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: flex;
+  text-align: center;
+  /*position: fixed;
+  bottom: 0px;
+  z-index: 10;
+  padding: 10px 0px;*/
+}
+.footer-center {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: inline-block;
+  flex: auto;
+}
+.fa {
+  font-family: "Font Awesome 5 Free";
+  margin-right: 5px;
+  font-weight: 900;
+  content: "\f007";
+}
+.facebook {
+  margin-right: 5px;
+  background-color: rgba(183, 161, 108, 0.8);
+}
+.instagram  {
+  margin-right: 5px;
+  background-color: rgba(183, 161, 108, 0.8);
+}
+.youtube {
+  margin-right: 5px;
+  background-color: rgba(183, 161, 108, 0.8);
+}
+.soundcloud {
+  margin-right: 5px;
+  background-color: rgba(183, 161, 108, 0.8);
+}
+.applemusic {
+  margin-right: 5px;
+  background-color: rgba(183, 161, 108, 0.8);
+}
+.footer-logo {
+  color: white;
+  font-size: 23px;
+  padding: 40px 10px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+}
